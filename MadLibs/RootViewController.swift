@@ -27,6 +27,7 @@ class RootViewController: NSViewController {
         singularNounCombo.removeAllItems()
         singularNounCombo.addItemsWithObjectValues(singularNouns)
         singularNounCombo.selectItemAtIndex(2)
+        
     }
     
 }
