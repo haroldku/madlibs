@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF82D64B1B6A877F0023DD8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF82D64A1B6A877F0023DD8D /* AppDelegate.swift */; };
+		BF82D64D1B6A877F0023DD8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF82D64C1B6A877F0023DD8D /* Assets.xcassets */; };
+		BF82D6501B6A877F0023DD8D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF82D64E1B6A877F0023DD8D /* MainMenu.xib */; };
+		BF82D65B1B6A877F0023DD8D /* MadLibsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF82D65A1B6A877F0023DD8D /* MadLibsTests.swift */; };
+		BF82D6661B6A877F0023DD8D /* MadLibsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF82D6651B6A877F0023DD8D /* MadLibsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF82D6571B6A877F0023DD8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF82D63F1B6A877F0023DD8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF82D6461B6A877F0023DD8D;
+			remoteInfo = MadLibs;
+		};
+		BF82D6621B6A877F0023DD8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF82D63F1B6A877F0023DD8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF82D6461B6A877F0023DD8D;
+			remoteInfo = MadLibs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF82D6471B6A877F0023DD8D /* MadLibs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MadLibs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF82D64A1B6A877F0023DD8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF82D64C1B6A877F0023DD8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF82D64F1B6A877F0023DD8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		BF82D6511B6A877F0023DD8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF82D6561B6A877F0023DD8D /* MadLibsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MadLibsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF82D65A1B6A877F0023DD8D /* MadLibsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MadLibsTests.swift; sourceTree = "<group>"; };
+		BF82D65C1B6A877F0023DD8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF82D6611B6A877F0023DD8D /* MadLibsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MadLibsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF82D6651B6A877F0023DD8D /* MadLibsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MadLibsUITests.swift; sourceTree = "<group>"; };
+		BF82D6671B6A877F0023DD8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF82D6441B6A877F0023DD8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF82D6531B6A877F0023DD8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF82D65E1B6A877F0023DD8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF82D63E1B6A877F0023DD8D = {
+			isa = PBXGroup;
+			children = (
+				BF82D6491B6A877F0023DD8D /* MadLibs */,
+				BF82D6591B6A877F0023DD8D /* MadLibsTests */,
+				BF82D6641B6A877F0023DD8D /* MadLibsUITests */,
+				BF82D6481B6A877F0023DD8D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF82D6481B6A877F0023DD8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF82D6471B6A877F0023DD8D /* MadLibs.app */,
+				BF82D6561B6A877F0023DD8D /* MadLibsTests.xctest */,
+				BF82D6611B6A877F0023DD8D /* MadLibsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF82D6491B6A877F0023DD8D /* MadLibs */ = {
+			isa = PBXGroup;
+			children = (
+				BF82D64A1B6A877F0023DD8D /* AppDelegate.swift */,
+				BF82D64C1B6A877F0023DD8D /* Assets.xcassets */,
+				BF82D64E1B6A877F0023DD8D /* MainMenu.xib */,
+				BF82D6511B6A877F0023DD8D /* Info.plist */,
+			);
+			path = MadLibs;
+			sourceTree = "<group>";
+		};
+		BF82D6591B6A877F0023DD8D /* MadLibsTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF82D65A1B6A877F0023DD8D /* MadLibsTests.swift */,
+				BF82D65C1B6A877F0023DD8D /* Info.plist */,
+			);
+			path = MadLibsTests;
+			sourceTree = "<group>";
+		};
+		BF82D6641B6A877F0023DD8D /* MadLibsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF82D6651B6A877F0023DD8D /* MadLibsUITests.swift */,
+				BF82D6671B6A877F0023DD8D /* Info.plist */,
+			);
+			path = MadLibsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF82D6461B6A877F0023DD8D /* MadLibs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF82D66A1B6A877F0023DD8D /* Build configuration list for PBXNativeTarget "MadLibs" */;
+			buildPhases = (
+				BF82D6431B6A877F0023DD8D /* Sources */,
+				BF82D6441B6A877F0023DD8D /* Frameworks */,
+				BF82D6451B6A877F0023DD8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MadLibs;
+			productName = MadLibs;
+			productReference = BF82D6471B6A877F0023DD8D /* MadLibs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF82D6551B6A877F0023DD8D /* MadLibsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF82D66D1B6A877F0023DD8D /* Build configuration list for PBXNativeTarget "MadLibsTests" */;
+			buildPhases = (
+				BF82D6521B6A877F0023DD8D /* Sources */,
+				BF82D6531B6A877F0023DD8D /* Frameworks */,
+				BF82D6541B6A877F0023DD8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF82D6581B6A877F0023DD8D /* PBXTargetDependency */,
+			);
+			name = MadLibsTests;
+			productName = MadLibsTests;
+			productReference = BF82D6561B6A877F0023DD8D /* MadLibsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF82D6601B6A877F0023DD8D /* MadLibsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF82D6701B6A877F0023DD8D /* Build configuration list for PBXNativeTarget "MadLibsUITests" */;
+			buildPhases = (
+				BF82D65D1B6A877F0023DD8D /* Sources */,
+				BF82D65E1B6A877F0023DD8D /* Frameworks */,
+				BF82D65F1B6A877F0023DD8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF82D6631B6A877F0023DD8D /* PBXTargetDependency */,
+			);
+			name = MadLibsUITests;
+			productName = MadLibsUITests;
+			productReference = BF82D6611B6A877F0023DD8D /* MadLibsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF82D63F1B6A877F0023DD8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Harold Kurth";
+				TargetAttributes = {
+					BF82D6461B6A877F0023DD8D = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					BF82D6551B6A877F0023DD8D = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = BF82D6461B6A877F0023DD8D;
+					};
+					BF82D6601B6A877F0023DD8D = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = BF82D6461B6A877F0023DD8D;
+					};
+				};
+			};
+			buildConfigurationList = BF82D6421B6A877F0023DD8D /* Build configuration list for PBXProject "MadLibs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF82D63E1B6A877F0023DD8D;
+			productRefGroup = BF82D6481B6A877F0023DD8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF82D6461B6A877F0023DD8D /* MadLibs */,
+				BF82D6551B6A877F0023DD8D /* MadLibsTests */,
+				BF82D6601B6A877F0023DD8D /* MadLibsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF82D6451B6A877F0023DD8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF82D64D1B6A877F0023DD8D /* Assets.xcassets in Resources */,
+				BF82D6501B6A877F0023DD8D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF82D6541B6A877F0023DD8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF82D65F1B6A877F0023DD8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF82D6431B6A877F0023DD8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF82D64B1B6A877F0023DD8D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF82D6521B6A877F0023DD8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF82D65B1B6A877F0023DD8D /* MadLibsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF82D65D1B6A877F0023DD8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF82D6661B6A877F0023DD8D /* MadLibsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF82D6581B6A877F0023DD8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF82D6461B6A877F0023DD8D /* MadLibs */;
+			targetProxy = BF82D6571B6A877F0023DD8D /* PBXContainerItemProxy */;
+		};
+		BF82D6631B6A877F0023DD8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF82D6461B6A877F0023DD8D /* MadLibs */;
+			targetProxy = BF82D6621B6A877F0023DD8D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF82D64E1B6A877F0023DD8D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF82D64F1B6A877F0023DD8D /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF82D6681B6A877F0023DD8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF82D6691B6A877F0023DD8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BF82D66B1B6A877F0023DD8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MadLibs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.TulsaTransit.MadLibs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BF82D66C1B6A877F0023DD8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MadLibs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.TulsaTransit.MadLibs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BF82D66E1B6A877F0023DD8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MadLibsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.TulsaTransit.MadLibsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MadLibs.app/Contents/MacOS/MadLibs";
+			};
+			name = Debug;
+		};
+		BF82D66F1B6A877F0023DD8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MadLibsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.TulsaTransit.MadLibsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MadLibs.app/Contents/MacOS/MadLibs";
+			};
+			name = Release;
+		};
+		BF82D6711B6A877F0023DD8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MadLibsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.TulsaTransit.MadLibsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MadLibs;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BF82D6721B6A877F0023DD8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MadLibsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.TulsaTransit.MadLibsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MadLibs;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF82D6421B6A877F0023DD8D /* Build configuration list for PBXProject "MadLibs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF82D6681B6A877F0023DD8D /* Debug */,
+				BF82D6691B6A877F0023DD8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF82D66A1B6A877F0023DD8D /* Build configuration list for PBXNativeTarget "MadLibs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF82D66B1B6A877F0023DD8D /* Debug */,
+				BF82D66C1B6A877F0023DD8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BF82D66D1B6A877F0023DD8D /* Build configuration list for PBXNativeTarget "MadLibsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF82D66E1B6A877F0023DD8D /* Debug */,
+				BF82D66F1B6A877F0023DD8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BF82D6701B6A877F0023DD8D /* Build configuration list for PBXNativeTarget "MadLibsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF82D6711B6A877F0023DD8D /* Debug */,
+				BF82D6721B6A877F0023DD8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF82D63F1B6A877F0023DD8D /* Project object */;
+}
